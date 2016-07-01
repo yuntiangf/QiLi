@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+    <ImageView 
+		android:id="@+id/imageView01"
+		android:layout_width="fill_parent" 
+		android:layout_height="match_parent"
+		android:background="@anim/aaa"
+		/> 
+		
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true"
+	    >
+	<Button
+        android:id="@+id/scan_qrcode"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="进行二维码扫描" 
+        android:background="@drawable/shape"/>
+
+    <Button
+        android:id="@+id/bt_cookmethod"
+        android:layout_width="80dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:text="产品的烹饪方法" 
+        android:background="@drawable/shape"/>
+    <Button
+           android:id="@+id/bt_analysis"
+           android:layout_width="80dp"
+           android:layout_weight="0.5"
+           android:layout_height="wrap_content"
+           android:text="每月行情的分析"
+           android:background="@drawable/shape"/>
+
+    <Button
+        android:id="@+id/diet"
+        android:layout_width="80dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:text="智能饮食推荐系统" 
+        android:background="@drawable/shape"/>
+	</LinearLayout>
+
+</RelativeLayout>
